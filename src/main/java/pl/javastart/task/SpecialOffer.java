@@ -22,6 +22,7 @@ public class SpecialOffer {
     void printOut() {
         System.out.println("Oferta specjalna");
         System.out.printf("Dotyczy produktu: %s, Opis produktu: %s\n", product.name, product.description);
+        System.out.printf("Obowiązuje w terminie od %s do %s\n", startDate, endDate);
         System.out.printf("Podstawowa cena produktu: %.1f\n", product.price);
         System.out.printf("Zniżka ofertowa: %.0f proc.\n", (discount * 100));
         System.out.printf("Cena po zniżce: %.2f\n\n", (product.price * (1 - discount)));

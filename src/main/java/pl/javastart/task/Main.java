@@ -14,7 +14,7 @@ public class Main {
         product2.printOut();
         product3.printOut();
 
-        SpecialOffer specialOffer1 = new SpecialOffer(product1, "Oferta1", .2F, "14 lutego", "15 lutego");
+        SpecialOffer specialOffer1 = new SpecialOffer(product1, "Oferta1", .2F, "10.02.2023", "17.02.2023");
 
         specialOffer1.printOut();
 
